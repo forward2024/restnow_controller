@@ -5,8 +5,8 @@
 import FlutterMacOS
 import Foundation
 
-import flutter_blue_plus
+import bluetooth_low_energy_darwin
 
 func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
-  FlutterBluePlusPlugin.register(with: registry.registrar(forPlugin: "FlutterBluePlusPlugin"))
+  BluetoothLowEnergyDarwinPlugin.register(with: registry.registrar(forPlugin: "BluetoothLowEnergyDarwinPlugin"))
 }
